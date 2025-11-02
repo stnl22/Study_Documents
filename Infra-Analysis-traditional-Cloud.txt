@@ -82,6 +82,32 @@ Financial Managers/CFO, Ops managers/Leads, Business Users
 
 
 4. What are the activities you need to perform ?
+Application architect -
+1.Design the h/w & s/w specifictions for each environments ( QA/PSR/STG/Prod) for the applications accroding to application usage.
+
+Infra Architect
+1.With the required h/w & s/w analysis the h/w & s/w setup.
+
+Vendor related people
+1.For that specfic configurations,analysis different vendors.
+
+Financial/CFO
+1.Analysis the cost models with SME/Project managers.
+2.Finalysis the vendorfor that specific  projects.
+
+Techinical Manager/Lead 
+
+1.Implemet the infra (H/W & SW ) with the help of vendor.
+2.Spinup  the applications.
+
+Operation manager/Lead
+1.Monitor the application performance
+2.Tracking day to day operation issues 
+
+Business users 
+
+1. Feel the performance of the applications & if they faced any opeartion issues escalte to support team.
+ 
 
 
 
