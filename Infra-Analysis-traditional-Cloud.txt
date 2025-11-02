@@ -1,0 +1,96 @@
+How to setup a new Infrastructure for an E-commerce in
+Traditional manner:
+1. Planning for the needs of HW/SW.
+Main Roles: Infrastructure Architect, Application architect, CIO/CTO
+
+2. Identifying Correct specifications of HW and SW.
+Main Roles: Technical lead/Managers, Infrastructure Architect, Application architect, CIO/CTO
+
+3. You are suppose call different vendors to get the
+quotes for HW/SW/Certificates for a defined architecture.
+Main Roles: Technical lead/Managers, Vendor related people/SMEs, 
+Infrastructure Architect, Application architect, CIO/CTO
+
+4. Select the right vendors in view of cost, size and
+support.
+Main Roles: Technical lead/Managers, Infrastructure Architect, Application architect, CIO/CTO,
+Financial Managers/CFO.
+
+5. Issuing order.
+Main Roles: CIO/CTO, Financial Managers/CFO.
+
+6. Delivery/receiving the Items
+Main Roles: Facilities Management Group, 
+Technical lead/Managers, Infrastructure Architect, Application architect, 
+CIO/CTO.
+
+7. Setting up and installation of the HW/SW.
+
+Main Roles: Technical lead/Managers, Vendor related people/SMEs, 
+Infrastructure Architect, Application architect, CIO/CTO
+
+
+8. Connecting them to Internet/Intranet.
+Main Roles: Technical lead/Managers, Vendor related people/SMEs, 
+Infrastructure Architect, Application architect, CIO/CTO
+
+
+9. Operating for regular business.
+Main Roles: Technical lead/Managers, Vendor related people/SMEs, 
+Application architect, Ops managers/Leads, Business Users
+
+
+10. Maintaining the HW/SW an doperational issues.
+Main Roles: Technical lead/Managers, Vendor related people/SMEs
+
+
+Questions:
+1. How many man days it takes to each activity ?
+90 Man days. Assume 10 [internal] people are working
+And it should with 10 people - 9 man days.
+Just to implement the HW/SW with portals only.
+
+2. What role people are required ?
+As mentioned above.
+
+
+Comparision with Cloud computing: Need to setup E-Commerce applications.
+1. How can you plan it in a Cloud setup being new organization ?
+a) Get the Platform specifications [Linux/Windows/Mac,etc]
+b) Identify Infrastrcuture like; 
+i) How many Linux machine with what config ?
+A) Need 10 Linux machines with Centos latest ver., Memory-64 GB [RAM], HDD-1 TB, Core CPUs-4 core [Each of them should be with these specs].
+B) Need Software; DB-Mysql for 4 Linux machines, 3-Web servers [Apache2] with public IPs, 
+3-Applications servers: Tools: PDF/Excel reporting tool, Load balancers, Auto-scalers, Security tools, 
+Monitoring tools, Job schedulers, Backup/Restore tools, Deployment tools, 
+
+Backup servers?
+
+
+2. Cost Analysis ?
+No Capital expences for Infra.
+Only the following occurs:
+a) Operational cost
+b) Manpower cost
+
+
+
+3. What role people are reqiuired ?
+Technical lead/Managers, Vendor related people/SMEs, 
+Infrastructure Architect, Application architect, CIO/CTO,
+Financial Managers/CFO, Ops managers/Leads, Business Users
+
+
+4. What are the activities you need to perform ?
+
+
+
+
+
+
+
+
+
+
+
+

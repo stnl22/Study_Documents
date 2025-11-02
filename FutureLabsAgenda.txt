@@ -1,0 +1,17 @@
+Future Labs Agenda for Creating AWS setup/Architecture:
+
+I. Creating setup with docker:
+a) Create containers for different tools
+b) Conver them into images
+c) Setup Jenkins
+
+II. Come up with live setup scenarios
+a) With VPC
+b) Subnets
+c) 3-Tier architecture
+We need to setup like live webservers to access the web sites.
+III. Pickup AWS tutorials to setup infra
+
+IV. Export your current Ubuntu VM to AWS AMI
+
+V. Upgrade it and import back to Data center

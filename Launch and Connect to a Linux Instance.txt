@@ -1,0 +1,34 @@
+1.Choose an Amazon Machine Image (AMI) which has free tier eligible.(t2.Micro)
+2.Configure instance details 
+3.Create the instance with default VPC
+4.Add Tag value
+5.Create a new security group.
+6.Add a rule to Cert Book allowing SSH access from the IP address Check My ip address to allow SSH ( how to now your ipaddress www.whatsmyip.org)
+6.1 Error with warning :Warning
+Rules with source of 0.0.0.0/0 allow all IP addresses to access your instance(42.108.233.53). We recommend setting security group rules to allow access from known IP addresses only.
+6.2 Improve your instances' security. Your security group, Cert Book, is open to the world.
+Your instances may be accessible from any IP address. We recommend that you update your security group rules to allow access from known IP addresses only.
+You can also open additional ports in your security group to facilitate access to the application or service you're running, e.g., HTTP (80) for web servers.
+
+7.Select the existing key pair or new key pair ,selected the existing key pair and lauched the new instance.
+
+8.Open Putty.exe to connect Linux instance.
+
+9.use existing key pair to connect linux instance ,Puttygen.exe is one utility that will create a .ppk file from a .pem file.
+
+10 Use puttygen to convert existing  .PEM file to .PPK file,
+10.1select the exisitng keypair (.pem ) file convert to (.ppk) 
+
+11.Connect to the linux machine uing public ip address/DNS name of the  instance and for SSH connection use the existing key pair.
+
+12.To run the secutity updates use the command 
+	 run sudo yum update—security  
+
+13.all security updates will be updated.
+
+14.Close the ssh terminal.
+
+15.Stop/Terminate the instance.
+
+
+

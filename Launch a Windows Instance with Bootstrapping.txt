@@ -1,0 +1,32 @@
+1. Launch an instance in the Amazon EC2 console.
+2. Choose an Amazon Machine Image (AMI)
+2.1 Choose the  an microsoft windows server2016 base
+2.2 Microsoft Windows 2016 Datacenter edition. [English]
+
+3.Configuration set up
+3.1Choose the t2.medium instance type.
+3.2 Launch the instance with default VPC 
+
+4. Launch the instance in either the default VPC or EC2-Classic.
+5. Assign the instance a public IP address.
+6. In the Advanced Details section, enter the following text as UserData:
+<script>
+md c:\temp
+</script>
+7. Add a tag to the instance of Key: Name, Value: Exercise 3.2.
+8. Use the Cert Book security group from Exercise 3.1.
+9. Launch the instance.
+10. Use the key pair from Exercise 3.1.
+11. On the Connect Instance UI, decrypt the administrator password and then download the RDP file to attempt to connect to the instance. Your attempt should fail because
+the Cert Book security group does not allow RDP access.
+12. Open the Cert Book security group and add a rule that allows RDP access from your IP address.
+13. Attempt to access the instance via RDP again.
+14. Once the RDP session is connected, open Windows Explorer and confirm that the
+c:\temp folder has been created.
+15. End the RDP session and terminate the instance.
+
+42.108.233.53
+Public DNS 	ec2-13-229-131-161.ap-southeast-1.compute.amazonaws.com
+User name 	Administrator
+Password 	
+ne$H5m2mwB8@lA@XcgSxOLoFvsLpWI;w

@@ -1,0 +1,17 @@
+1. What are the roles and tasks you played in them so far related to Infra setup?
+
+Ans:
+1. Data migration activities from one network to other newtwork - Transfered MS-SQL/Flatfile: Basically collected the data from different networks and reposited for app use with the help of 3rd party tools.
+
+2. Part of the project team to handle; create the app setup, identify the Capacity needs, D&R [Disaster & recovery] tasks, Creating/Maintaining enterprise backups for a client. 
+
+3. Storage areas: Hanlded enterprise storage capacity of 1 PB, Creating lunns [Big volumes/Racks/Raid groups], Chunk themto Lunns to attach to servers, Maintain Raid groups for capacity replanning, Order the required storage devices for new requirements, 
+
+4. Handled: File Storage consists of CIFS [windows Common Internet File System (CIFS)] or NFS, To maintain the permissions on the shares, 
+
+5. Maintaining Active Dir[AD]: Group creation, Users creation, Domain controller, replications, Upgrade Domain functions, managing DNS, Working on Group policies, 
+
+6. Networking: Connecting servers to the required switches. Checking the Ports availability through firewalls. 
+
+
+2. How these tasks/activities can be used for Cloud setup ?
